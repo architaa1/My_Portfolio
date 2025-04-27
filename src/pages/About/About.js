@@ -1,11 +1,10 @@
 import React from "react";
 import "./About.css";
-import Jump from "react-reveal/Jump";
 import profilePic from './me.jpg';
 const About = () => {
   return (
     <>
-      <Jump>
+      
         <div className="about" id="about">
           <div className="row">
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
@@ -25,7 +24,7 @@ I’m always excited to work on challenging projects, collaborate with others, a
             </div>
           </div>
         </div>
-      </Jump>
+      
     </>
   );
 };

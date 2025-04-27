@@ -1,6 +1,5 @@
 import React from "react";
 import "./Projects.css";
-import Fade from "react-reveal/Fade";
 const Projects = () => {
   return (
     <>
@@ -14,7 +13,7 @@ const Projects = () => {
         </p>
         {/* card design */}
         <div className="row" id="ads">
-          <Fade left>
+          
             <div className="col-md-4">
               <div style={{ marginBottom: "20px" }} className="card rounded">
                 <div className="card-image">
@@ -291,7 +290,7 @@ const Projects = () => {
               </div>
             </div>
 
-            </Fade>
+
         </div>
       </div>
     </>

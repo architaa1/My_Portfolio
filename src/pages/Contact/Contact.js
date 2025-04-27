@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
 import "./Contact.css";
-import Tada from "react-reveal/Tada";
 import { BsEnvelopeAt, BsGithub, BsLinkedin} from "react-icons/bs";
 import emailjs from '@emailjs/browser';
 
@@ -55,18 +54,18 @@ const Contact = () => {
             <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
               <div className="card1">
                 <div className="row border-line">
-                  <Tada>
+                  
                     <img
                       src="https://calebadeleye.com/wp-content/uploads/2022/09/contact-me.jpg"
                       alt="contact"
                       className="image"
                     />
-                  </Tada>
+                 
                 </div>
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
-              <Tada>
+             
                 <div className="card2 d-flex card border-0 px-4 py-5">
                   <div className="row">
                     <div className="row">
@@ -126,7 +125,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-              </Tada>
+          
             </div>
           </div>
         </div>
