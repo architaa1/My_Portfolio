@@ -28,19 +28,30 @@ This project showcases my work, skills, and background as a developer, designed 
 
 ## 📂 Folder Structure
 
-```plaintext
 My_Portfolio/
+
 ├── public/
+
 ├── src/
+
 │   ├── assets/       # Images and assets
+
 │   ├── components/   # Reusable components
+
 │   ├── pages/        # Different pages like Home, About, Projects, etc.
+
 │   ├── App.jsx       # Main application file
+
 │   ├── main.jsx      # Vite main entry point
+
 │   └── index.css     # Tailwind and global styles
+
 ├── tailwind.config.js
+
 ├── package.json
+
 ├── README.md
+
 └── vite.config.js
 
 ## 🛠️ Installation and Setup
