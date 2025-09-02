@@ -16,6 +16,27 @@ const WorkExp = () => {
           </h2>
           <hr />
           <VerticalTimeline lineColor="#1e1e2c">
+                <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "white", color: "#1e1e2c" }}
+              contentArrowStyle={{
+                borderRight: "7px solid  white",
+              }}
+              date="July 2025 - Septmber 2025"
+              iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+              icon={<MdWorkOutline/>}
+            >
+              <h3 className="vertical-timeline-element-title">
+                INTERN – BUSINESS INTELLIGENCE 
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Nippon Data Systems Ltd. 
+              </h4>
+              <p>• Built and deployed interactive Power BI dashboards for sales and financial reporting.</p>
+              <p>• Integrated dashboards with ERP database to enable real-time business insights.</p>
+              <p>• Performed data cleaning, transformation, and modeling to support analytics.</p>
+              <p>• Delivered user-friendly visualizations that improved decision-making efficiency.</p>
+            </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "white", color: "#1e1e2c" }}
