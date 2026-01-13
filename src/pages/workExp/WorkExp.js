@@ -51,7 +51,7 @@ const WorkExp = () => {
                 INTERN – Agentic AI and Cloud 
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                Nippon Data Systems Ltd. 
+                IBM Skillbuild Internship 
               </h4>
               <p>• Developed an AI Agent for Financial Literacy using IBM Watsonx.ai, IBM Granite, Langflow, RAG architecture, and IBM Cloud.</p>
               <p>• Applied prompt engineering and retrieval-augmented generation for intelligent financial Q&A.</p>
