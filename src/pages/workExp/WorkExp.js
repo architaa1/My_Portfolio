@@ -22,7 +22,7 @@ const WorkExp = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
-              date="July 2025 - Septmber 2025"
+              date="July 2025 - December 2025"
               iconStyle={{ background: "#1e1e2c", color: "#fff" }}
               icon={<MdWorkOutline/>}
             >
@@ -36,6 +36,27 @@ const WorkExp = () => {
               <p>• Integrated dashboards with ERP database to enable real-time business insights.</p>
               <p>• Performed data cleaning, transformation, and modeling to support analytics.</p>
               <p>• Delivered user-friendly visualizations that improved decision-making efficiency.</p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "white", color: "#1e1e2c" }}
+              contentArrowStyle={{
+                borderRight: "7px solid  white",
+              }}
+              date="July 2025 - August 2025"
+              iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+              icon={<MdWorkOutline/>}
+            >
+              <h3 className="vertical-timeline-element-title">
+                INTERN – Agentic AI and Cloud 
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Nippon Data Systems Ltd. 
+              </h4>
+              <p>• Developed an AI Agent for Financial Literacy using IBM Watsonx.ai, IBM Granite, Langflow, RAG architecture, and IBM Cloud.</p>
+              <p>• Applied prompt engineering and retrieval-augmented generation for intelligent financial Q&A.</p>
+              <p>• Selected among top 6,000 participants to present my project at the IBM India CSR Annual Summit 2025.</p>
+              <p>• Recieved Learners Recognition Award from IBM.</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
