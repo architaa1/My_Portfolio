@@ -20,6 +20,7 @@ const WorkExp = () => {
 
         <VerticalTimeline lineColor="#1e1e2c">
 
+          {/* Z1 Tech */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "#1e1e2c" }}
@@ -40,6 +41,7 @@ const WorkExp = () => {
             <p>• Analyze lead generation and conversion performance to assess cost efficiency and revenue impact.</p>
           </VerticalTimelineElement>
 
+          {/* Nippon Data Systems */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "#1e1e2c" }}
@@ -60,6 +62,7 @@ const WorkExp = () => {
             <p>• Delivered user-friendly visualizations that improved decision-making efficiency.</p>
           </VerticalTimelineElement>
 
+          {/* IBM SkillsBuild */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "#1e1e2c" }}
@@ -80,6 +83,7 @@ const WorkExp = () => {
             <p>• Received Learner Recognition Award from IBM.</p>
           </VerticalTimelineElement>
 
+          {/* Orangus India */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "#1e1e2c" }}
