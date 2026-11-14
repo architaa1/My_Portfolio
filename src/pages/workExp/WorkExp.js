@@ -16,7 +16,27 @@ const WorkExp = () => {
           </h2>
           <hr />
           <VerticalTimeline lineColor="#1e1e2c">
-                <VerticalTimelineElement
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "white", color: "#1e1e2c" }}
+              contentArrowStyle={{
+                borderRight: "7px solid  white",
+              }}
+              date="March 2026 - Present"
+              iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+              icon={<MdWorkOutline/>}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Data Analyst 
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Z1Tech
+              </h4>
+              <p>• Analyze programmatic data across DSPs, SSPs and publishers; track CTR, CPC, CPA, CVR, eCPM, spend and margin.</p>
+              <p>• Spot trends, anomalies and inefficiencies by campaign, keyword, publisher and traffic to guide bid/budget optimization.</p>
+              <p>• Validate data and resolve inconsistencies across campaign reports to keep performance reporting accurate and reliable.</p>
+              <p>• Analyze lead generation and conversion performance to assess cost efficiency and revenue impact.</p>    
+              <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "white", color: "#1e1e2c" }}
               contentArrowStyle={{
