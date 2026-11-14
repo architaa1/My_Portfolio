@@ -36,6 +36,7 @@ const WorkExp = () => {
               <p>• Spot trends, anomalies and inefficiencies by campaign, keyword, publisher and traffic to guide bid/budget optimization.</p>
               <p>• Validate data and resolve inconsistencies across campaign reports to keep performance reporting accurate and reliable.</p>
               <p>• Analyze lead generation and conversion performance to assess cost efficiency and revenue impact.</p>    
+              <VerticalTimelineElement>
               <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "white", color: "#1e1e2c" }}
