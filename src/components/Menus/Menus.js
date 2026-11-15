@@ -18,7 +18,7 @@ const Menus = ({ toggle }) => {
         <>
           
             <div className="navbar-profile-pic">
-            <img src={profilePic} alt="Profile Picture" />
+            <img src={profilePic} alt="Archita Sinha" />
             </div>
         
      
